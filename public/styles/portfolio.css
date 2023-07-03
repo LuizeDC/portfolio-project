@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body {
+  background-color: white;
+}
+.portfolioTitle {
+  color: white;
+  font-size: 150px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.6cm;
+  text-shadow: 3px 3px rgb(186, 99, 160);
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolioImage {
+  margin-top: 10px;
+  box-shadow: 3px 3px 6px rgb(141, 141, 141);
+}
+
+.portfolioImage:hover {
+  opacity: 0.5;
+  transition: all 800ms ease-in-out;
+}
+
+.projectTitle {
+  margin: 10px;
+  color: rgb(223, 0, 163, 0.8);
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 1px 1px 2px rgb(141, 141, 141);
+}
+
+.stackTitle {
+  margin: -10px 0 0 0;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#colContainer {
+  margin-top: 10px;
+  border: 1px solid rgb(141, 141, 141);
+  box-shadow: 3px 3px 6px rgb(141, 141, 141, 0.2);
+}
+
+#colContainer:hover div {
+  background-color: red;
+}
+
+.link {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  letter-spacing: 0.3cm;
+  color: black;
+}
+
+.link a {
+  color: black;
+  text-shadow: 1px 1px 0.5px rgb(141, 141, 141);
+  text-decoration: none;
+}

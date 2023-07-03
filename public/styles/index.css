@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  text-shadow: 2px 2px 2px rgb(232, 14, 196);
+  transition: all 600ms ease-in-out;
+}
+#cardIntro {
+  display: block;
+  margin: 0x;
+  padding: 5% 0 5% 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.introName {
+  color: white;
+  font-size: 150px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.6cm;
+  text-shadow: 3px 3px rgb(186, 99, 160);
+  transition: all 2s ease-in-out;
+}
+
+.introName:hover {
+  color: rgb(0, 0, 0);
+  transition: all 2s ease-in-out;
+  letter-spacing: 0.3px;
+  text-shadow: 3px 3px 3px rgba(255, 56, 222, 1);
+}
+
+.introTitle {
+  color: white;
+  font-family: "Playfair Display", serif;
+  margin: -20px 0;
+  text-shadow: 2px 2px rgba(241, 17, 223, 0.5);
+}
+
+.contactMe {
+  display: block;
+  margin: 100px 0 0;
+  font-size: 50px;
+  transition: all 600ms ease-in-out;
+}
+.fa-instagram-square,
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+  padding: 0 25px 0 0;
+  color: rgb(192, 190, 192);
+  opacity: 0.6;
+  text-shadow: 1px 1px rgb(180, 180, 180);
+  transition: all 600ms ease-in-out;
+}
+.fa-instagram-square:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  text-shadow: 3.5px 3.5px 3.5px rgb(232, 14, 196);
+  transition: all 600ms ease-in-out;
+}
+
+.techStack {
+  margin-top: 90px;
+  letter-spacing: 1em;
+  align-items: center;
+}
+
+.skillHead,
+#skillHeader {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0.1cm;
+  text-shadow: 1px 2px rgb(186, 99, 160);
+}
+
+.introAbout {
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding: 0 100px 0 100px;
+  text-shadow: 1px 1px rgb(206, 204, 206);
+}
+
+.skillIcon {
+  display: flex;
+  justify-content: right;
+  padding: 0 70px 0 0;
+}
+
+.htmlIcon,
+.cssIcon,
+.btsIcon,
+.jsIcon,
+.reactIcon,
+.nodeIcon,
+.mongoIcon {
+  transform: translateY(80);
+}
+
+.htmlIcon:hover img,
+.cssIcon:hover,
+.btsIcon:hover,
+.jsIcon:hover,
+.reactIcon:hover,
+.nodeIcon:hover,
+.mongoIcon:hover {
+  border-bottom-color: white 1px bold;
+}
+
+.cardPortfolio {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}

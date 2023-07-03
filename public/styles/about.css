@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body,
+#bodyId {
+  background-color: white;
+}
+.navbar {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 20px;
+}
+#aboutPicture {
+  width: 100vh;
+  opacity: 0.9;
+  border-radius: 0%;
+  box-shadow: 6px 6px 8px rgba(163, 163, 163, 0.5);
+}
+
+.card-body {
+}
+
+#aboutTitle {
+  color: rgba(227, 227, 227, 0.9);
+  text-align: left;
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  opacity: 0.6;
+  text-shadow: 2px 2px 3px rgba(241, 17, 223);
+}
+
+p {
+  text-align: left;
+  text-shadow: 1px 1px 2px rgba(146, 146, 146, 0.4);
+  margin-top: 20px;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+}
+
+h2,
+.contactTitle {
+  color: rgba(227, 227, 227, 0.9);
+  text-align: left;
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive;
+  opacity: 0.6;
+  text-shadow: 2px 2px 3px rgba(241, 17, 223);
+}
+.form-label {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+
+#containerForm {
+  border: 1px solid rgba(146, 146, 146, 0.4);
+  text-shadow: 1px 1px 1px rgba(146, 146, 146, 0.8);
+  padding: 10px;
+}
+
+#button,
+#button:hover {
+  margin-left: 10px;
+  width: max-content;
+  color: rgba(241, 17, 223, 0.6);
+  background-color: rgba(229, 229, 229, 0.95);
+  box-shadow: 2px 2px 4px rgb(103, 103, 103, 0.5);
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  border: none;
+}
+#button:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(241, 17, 223, 0.6);
+  border: none;
+  box-shadow: 2px 2px 6px rgb(103, 103, 103, 0.7);
+}

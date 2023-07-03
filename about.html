@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/styles/about.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("bJIz6xdGylpAlBcdX");
+      })();
+    </script>
+    <script src="./public/scripts/app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a8294b3994.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ABOUT ME</title>
+  </head>
+  <body id="bodyId">
+    <nav
+      class="navbar bg-dark navbar-expand-lg bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/null/external-woman-home-office-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-2.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-lg-6">
+          <img
+            class="img-fluid"
+            id="aboutPicture"
+            src="./public/images/luizeportfolio.jpg"
+            alt="Picture of Luize"
+          />
+        </div>
+        <div class="col-lg-6">
+          <div class="card-body">
+            <h1 id="aboutTitle">ABOUT ME</h1>
+            <p>
+              Hey There! I’m Luize. I’m a frontend focused full stack Software
+              Engineer. I was born and raised in the south of Brazil. After
+              graduating from law school in 2016, I moved to the United States
+              and currently reside in NYC. My passion for programming begins
+              with intersection of technology and design. It’s an outlet for me
+              to explore a world of endless possibilities through creativity and
+              a love for problem solving. I approach every project with an
+              emphasis on both aesthetic and functionality to create something
+              completely unique. I love a ______ and am always looking for my
+              next challenge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <div class="container" id="containerForm">
+      <h2 class="contactTitle">CONTACT ME</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">First Name:</label>
+          <input type="text" class="form-control" id="name" placerequired />
+          <label for="emailInfo" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="emailInfo" required />
+        </div>
+        <div class="col-md-6">
+          <label for="phoneNumber" class="form-label">Phone Number:</label>
+          <input type="text" class="form-control" id="phoneNumber" />
+        </div>
+        <div>
+          <label for="message" class="form-label">Message:</label>
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            cols="10"
+            rows="5"
+          ></textarea>
+        </div>
+        <button class="btn btn-light" id="button" onclick="sendMail()">
+          SUBMIT
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

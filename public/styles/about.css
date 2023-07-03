@@ -21,9 +21,6 @@ body,
   box-shadow: 6px 6px 8px rgba(163, 163, 163, 0.5);
 }
 
-.card-body {
-}
-
 #aboutTitle {
   color: rgba(227, 227, 227, 0.9);
   text-align: left;
@@ -50,7 +47,8 @@ h2,
   opacity: 0.6;
   text-shadow: 2px 2px 3px rgba(241, 17, 223);
 }
-.form-label {
+.formLabel {
+  font-size: 18px;
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
 }
